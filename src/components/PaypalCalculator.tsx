@@ -42,7 +42,7 @@ function CalculatorCore() {
               variant="outline"
               size="sm"
               onClick={toggleLang}
-              className="h-8 shadow-sm bg-background border-border/60 hover:bg-accent/50 focus:outline-none rounded-full"
+              className="h-8 shadow-sm bg-background border-border/60 hover:bg-accent/50 focus:outline-none"
             >
               <Globe className="w-4 h-4 mr-1 text-muted-foreground" />
               <span className="font-medium text-xs">{lang.toUpperCase()}</span>
